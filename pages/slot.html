@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Select Charging Slot - SmartCharge AI</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="navbar">
+        <div class="logo">
+            <span>⚡</span>
+            SmartCharge AI
+        </div>
+
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+        <nav id="mobileMenu">
+            <a href="../index.html">Home</a>
+            <a href="#">Stations</a>
+            <a href="booking.html">Book Slot</a>
+            <a href="#">Pricing</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+
+            <a href="login.html" class="login-btn">Login</a>
+            <a href="register.html" class="register-btn">Register</a>
+        </nav>
+    </header>
+
+
+    <!-- Page Heading -->
+    <section class="slot-page">
+
+        <div class="section-label">
+            SELECT YOUR CHARGER
+        </div>
+
+        <h1>
+            Choose a Charging Slot
+        </h1>
+
+        <p class="slot-description">
+            Select an available charger and choose your preferred
+            charging time.
+        </p>
+
+
+        <!-- Station Information -->
+        <div class="selected-station">
+
+            <div class="station-icon">
+                ⚡
+            </div>
+
+            <h2 id="stationName">
+                GreenCharge Station
+            </h2>
+
+            <p>📍 Kochi, Kerala</p>
+
+        </div>
+
+
+        <!-- Charger Selection -->
+        <h2 class="slot-heading">
+            Available Chargers
+        </h2>
+
+
+        <div class="charger-list">
+
+            <!-- Charger 1 -->
+            <div class="charger-card available">
+
+                <div class="charger-status green"></div>
+
+                <div class="charger-info">
+                    <h3>Charger 1</h3>
+                    <p>DC Fast Charging</p>
+                </div>
+
+                <span class="available-text">
+                    Available
+                </span>
+
+            </div>
+
+
+            <!-- Charger 2 -->
+            <div class="charger-card booked">
+
+                <div class="charger-status orange"></div>
+
+                <div class="charger-info">
+                    <h3>Charger 2</h3>
+                    <p>DC Fast Charging</p>
+                </div>
+
+                <span class="booked-text">
+                    Booked
+                </span>
+
+            </div>
+
+
+            <!-- Charger 3 -->
+            <div class="charger-card occupied">
+
+                <div class="charger-status red"></div>
+
+                <div class="charger-info">
+                    <h3>Charger 3</h3>
+                    <p>DC Fast Charging</p>
+                </div>
+
+                <span class="occupied-text">
+                    Occupied
+                </span>
+
+            </div>
+
+
+            <!-- Charger 4 -->
+            <div class="charger-card available">
+
+                <div class="charger-status green"></div>
+
+                <div class="charger-info">
+                    <h3>Charger 4</h3>
+                    <p>DC Fast Charging</p>
+                </div>
+
+                <span class="available-text">
+                    Available
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- Date Selection -->
+        <div class="booking-form">
+
+            <h2 class="slot-heading">
+                Select Date
+            </h2>
+
+            <input
+                type="date"
+                id="bookingDate"
+                class="booking-input"
+            >
+
+
+            <h2 class="slot-heading">
+                Select Time
+            </h2>
+
+            <input
+                type="time"
+                id="bookingTime"
+                class="booking-input"
+            >
+
+
+            <a href="pages/slot.html" class="station-button">
+    continue booking →
+</a>
+
+        </div>
+
+    </section>
+
+
+    <script src="../js/script.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Book a Charging Slot | SmartCharge AI</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="booking-header">
+
+        <a href="../index.html" class="back-button">
+            ←
+        </a>
+
+        <h1>SmartCharge AI</h1>
+
+    </header>
+
+
+    <!-- Booking Section -->
+    <main class="booking-section">
+
+        <div class="booking-heading">
+
+            <p class="section-tag">BOOK YOUR CHARGING SLOT</p>
+
+            <h2>Select a Charging Slot</h2>
+
+            <p>
+                Choose your preferred charger and charging time.
+            </p>
+
+        </div>
+
+
+        <!-- Station Information -->
+        <div class="selected-station">
+
+            <div class="station-icon">
+                ⚡
+            </div>
+
+            <div>
+                <h3>GreenCharge Station</h3>
+                <p>📍 Kochi, Kerala</p>
+            </div>
+
+        </div>
+
+
+        <!-- Charger Slots -->
+        <div class="slots-container">
+
+            <h3 class="slots-title">
+                Available Chargers
+            </h3>
+
+
+            <!-- Slot 1 -->
+            <div class="slot-card available-slot">
+
+                <div class="slot-left">
+
+                    <div class="slot-icon">
+                        ⚡
+                    </div>
+
+                    <div>
+                        <h3>Charger 1</h3>
+                        <p>DC Fast Charging</p>
+                    </div>
+
+                </div>
+
+                <div class="slot-status available-text">
+                    Available
+                </div>
+
+            </div>
+
+
+            <!-- Slot 2 -->
+            <div class="slot-card booked-slot">
+
+                <div class="slot-left">
+
+                    <div class="slot-icon">
+                        ⚡
+                    </div>
+
+                    <div>
+                        <h3>Charger 2</h3>
+                        <p>DC Fast Charging</p>
+                    </div>
+
+                </div>
+
+                <div class="slot-status booked-text">
+                    Booked
+                </div>
+
+            </div>
+
+
+            <!-- Slot 3 -->
+            <div class="slot-card occupied-slot">
+
+                <div class="slot-left">
+
+                    <div class="slot-icon">
+                        ⚡
+                    </div>
+
+                    <div>
+                        <h3>Charger 3</h3>
+                        <p>DC Fast Charging</p>
+                    </div>
+
+                </div>
+
+                <div class="slot-status occupied-text">
+                    Occupied
+                </div>
+
+            </div>
+
+
+            <!-- Slot 4 -->
+            <div class="slot-card available-slot">
+
+                <div class="slot-left">
+
+                    <div class="slot-icon">
+                        ⚡
+                    </div>
+
+                    <div>
+                        <h3>Charger 4</h3>
+                        <p>DC Fast Charging</p>
+                    </div>
+
+                </div>
+
+                <div class="slot-status available-text">
+                    Available
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Date and Time -->
+        <div class="booking-details">
+
+            <h3>Select Date & Time</h3>
+
+            <label for="booking-date">
+                Date
+            </label>
+
+            <input
+                type="date"
+                id="booking-date"
+            >
+
+
+            <label for="booking-time">
+                Charging Time
+            </label>
+
+            <input
+                type="time"
+                id="booking-time"
+            >
+
+        </div>
+
+
+        <!-- Continue Button -->
+        <button class="continue-booking">
+            Continue Booking →
+        </button>
+
+    </main>
+
+
+</body>
+
+</html>
